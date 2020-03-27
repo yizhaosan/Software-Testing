@@ -1,24 +1,24 @@
-package ctgu.edu.com.triangle;
+package ctgu.edu.com;
 
 /**
  * @Title: Triangle.java
  * @Package: ctgu.edu.com.triangle
- * @Description: ²âÊÔÈı½ÇĞÎÊÇ·ñÎªµÈ±ß¡¢µÈÑü»òÕßÊÇ²»µÈ±ßµÄ
+ * @Description: æµ‹è¯•ä¸‰è§’å½¢æ˜¯å¦ä¸ºç­‰è¾¹ã€ç­‰è…°æˆ–è€…æ˜¯ä¸ç­‰è¾¹çš„
  *
  */
 public class Triangle {
 	public static String triangleCalculate(int a, int b, int c) {
 		if (a < 1 || a > 100 || b < 1 || b > 100 || c < 1 || c > 100) {
-			return "ÊäÈë´íÎó";
+			return "è¾“å…¥é”™è¯¯";
 		}
 		if (!((a + b > c) && (a + c > b) && (b + c > a))) {
-			return "·ÇÈı½ÇĞÎ";
+			return "éä¸‰è§’å½¢";
 		} else if (a == b && a == c && b == c) {
-			return "µÈ±ßÈı½ÇĞÎ";
+			return "ç­‰è¾¹ä¸‰è§’å½¢";
 		} else if (a != b && a != c && b != c) {
-			return "Ò»°ãÈı½ÇĞÎ";
+			return "ä¸€èˆ¬ä¸‰è§’å½¢";
 		} else {
-			return "µÈÑüÈı½ÇĞÎ";
+			return "ç­‰è…°ä¸‰è§’å½¢";
 		}
 	}
 }
