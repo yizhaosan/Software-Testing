@@ -13,8 +13,9 @@ import org.junit.runners.Parameterized.Parameters;
 
 /**
  * @Title: TriangleJUnitTest
- * @Package: ctgu.edu.com.triangle
+ * @Package: ctgu.edu.com
  * @Descripate: 三角形测试类
+ * @author: yizhaosan
  */
 // 参数化运行器
 @RunWith(Parameterized.class)
@@ -53,7 +54,12 @@ public class TriangleJUnitTest {
 
     @Test
     public void testJunitTriangle() {
-        assertEquals(this.type, Triangle.triangleCalculate(a, b, c));
+        extracted();
     }
+
+	@SuppressWarnings("deprecation")
+	private void extracted() {
+		assertEquals(this.type, Triangle.triangleCalculate(a, b, c));
+	}
 
 }

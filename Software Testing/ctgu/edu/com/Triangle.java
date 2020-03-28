@@ -2,9 +2,9 @@ package ctgu.edu.com;
 
 /**
  * @Title: Triangle.java
- * @Package: ctgu.edu.com.triangle
+ * @Package: ctgu.edu.com
  * @Description: 测试三角形是否为等边、等腰或者是不等边的
- *
+ * @author: yizhaosan
  */
 public class Triangle {
 	public static String triangleCalculate(int a, int b, int c) {
