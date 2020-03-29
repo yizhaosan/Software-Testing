@@ -24,8 +24,7 @@ public class NextDate {
 	}
 
 	public static String getDate(int day, int month, int year) {
-		
-		
+
 		while (!(year >= 1900 && year <= 2050)) {
 			return "年份错误";
 		}
@@ -102,7 +101,7 @@ public class NextDate {
 				String nextDate = date(nextDay, nextMonth, nextYear);
 				return nextDate;
 			}
-			
+
 		case 4:
 		case 6:
 		case 11:
