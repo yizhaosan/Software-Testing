@@ -18,16 +18,16 @@ public class COVID_19 {
 			// 症状采集
 			System.out.println("是否具有以下症状？多选，输入-1结束\n"
 					+ "\t1.发热\n"
-					+ "\t2.咳嗽\n"
-					+ "\t3.腹泻\n"
-					+ "\t4.胸闷\n"
-					+ "\t5.气急\n"
-					+ "\t6.咽喉痛\n"
-					+ "\t7.流鼻涕\n"
-					+ "\t8.鼻塞\n"
-					+ "\t9.呼吸困难\n"
-					+ "\t10.全身酸痛\n"
-					+ "\t11.乏力\n"
+					+ "\t2.咽喉痛\n"
+					+ "\t3.咳嗽\n"
+					+ "\t4.鼻塞\n"
+					+ "\t5.流鼻涕\n"
+					+ "\t6.胸闷\n"
+					+ "\t7.气急\n"
+					+ "\t8.呼吸困难\n"
+					+ "\t9.全身酸痛\n"
+					+ "\t10.乏力\n"
+					+ "\t11.腹泻\n"
 					+ "\t12.都没有\n");
 			List<Integer> list1 = new ArrayList<Integer>();
 			int temp1 = 0;
@@ -40,11 +40,57 @@ public class COVID_19 {
 				}
 			}
 			
+			// 症状详情采集
+			int arr[][] = new int[10][6];
+			for (int i = 0; i < list1.size(); i++) {
+				if(list1.get(i) == 1) {
+					System.out.println("目前体温是多少？\n"
+							+ "\t1.小于37.3℃\n"
+							+ "\t2.大于等于37.3℃\n");
+					arr[1][1] = scanner.nextInt();
+					System.out.println("最高体温是多少？\n");
+					arr[1][2] = scanner.nextInt();
+					System.out.println("发热时有没有以下情况？\n"
+							+ "\t1.发热体温持续不退\n"
+							+ "\t2.体温一直大于38℃\n"
+							+ "\t3.都没有\n");
+					arr[1][3] = scanner.nextInt();
+					System.out.println("发热后有没有吃退烧药？\n"
+							+ "\t1.有\n"
+							+ "\t2.没有\n");
+					arr[1][4] = scanner.nextInt();
+					System.out.println("吃退烧药后的体温情况是？\n"
+							+ "\t1.体温下降又升高\n"
+							+ "\t2.体温没有下降\n");
+					arr[1][5] = scanner.nextInt();
+				} else if (list1.get(i) == 3) {
+					System.out.println("有没有咳嗽？\n"
+							+ "\t1.没有咳嗽（干咳）\n"
+							+ "\t2.有咳嗽\n");
+					arr[2][1] = scanner.nextInt();
+				} else if (list1.get(i) == 6) {
+					System.out.println("有没有胸闷加重？\n"
+							+ "\t1.有\n"
+							+ "\t2.没有\n");
+					arr[3][1] = scanner.nextInt();
+				} else if (list1.get(i) == 7) {
+					System.out.println("有没有气急加重？\n"
+							+ "\t1.有\n"
+							+ "\t2.没有\n");
+					arr[4][1] = scanner.nextInt();
+				} else if (list1.get(i) == 11) {
+					System.out.println("有没有腹泻加重？\n"
+							+ "\t1.有\n"
+							+ "\t2.没有\n");
+					arr[5][1] = scanner.nextInt();
+				}
+			}
+
 			// 症状时长
 			System.out.println("本次不舒服有多久了？\n"
 					+ "\t1.14天以内\n"
 					+ "\t2.14天以上\n");
-//			int temp2 = scanner.nextInt();
+			arr[6][1] = scanner.nextInt();
 			
 			// 接触史询问
 			System.out.println("近14天有没有以下情况？多选，输入-1结束");
@@ -54,11 +100,11 @@ public class COVID_19 {
 			System.out.println("\t4.身边有多人出现发热、乏力、咳嗽、咽痛等？");
 			System.out.println("\t5.都没有");
 			List<Integer> list2 = new ArrayList<Integer>();
-			int temp3 = 0;
+			int temp2 = 0;
 			while(true) {
-				temp3 = scanner.nextInt();
-				if(temp3 != -1) {
-					list2.add(temp3);
+				temp2 = scanner.nextInt();
+				if(temp2 != -1) {
+					list2.add(temp2);
 				} else {
 					break;
 				}
