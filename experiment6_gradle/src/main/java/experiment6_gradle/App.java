@@ -3,6 +3,12 @@
  */
 package experiment6_gradle;
 
+/**
+ * @Title: App.java
+ * @Package: experiment6_gradle
+ * @Description: 静态代码质量检查方法和工具
+ * @author: yizhaosan
+ */
 public class App {
     public String getGreeting() {
         return "Hello world.";
