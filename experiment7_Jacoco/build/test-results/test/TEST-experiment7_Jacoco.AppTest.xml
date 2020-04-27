@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="experiment7_Jacoco.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T03:27:52" hostname="L" time="0.042">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="experiment7_Jacoco.AppTest" time="0.042"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
