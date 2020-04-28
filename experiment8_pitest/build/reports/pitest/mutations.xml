@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mutations>
+<mutation detected='false' status='SURVIVED' numberOfTestsRun='1'><sourceFile>App.java</sourceFile><mutatedClass>experiment8_pitest.App</mutatedClass><mutatedMethod>getGreeting</mutatedMethod><methodDescription>()Ljava/lang/String;</methodDescription><lineNumber>8</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.EmptyObjectReturnValsMutator</mutator><index>4</index><block>0</block><killingTest/><description>replaced return value with &#34;&#34; for experiment8_pitest/App::getGreeting</description></mutation>
+<mutation detected='false' status='NO_COVERAGE' numberOfTestsRun='0'><sourceFile>App.java</sourceFile><mutatedClass>experiment8_pitest.App</mutatedClass><mutatedMethod>main</mutatedMethod><methodDescription>([Ljava/lang/String;)V</methodDescription><lineNumber>12</lineNumber><mutator>org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator</mutator><index>8</index><block>2</block><killingTest/><description>removed call to java/io/PrintStream::println</description></mutation>
+</mutations>
