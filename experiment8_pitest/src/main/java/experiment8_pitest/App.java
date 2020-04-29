@@ -3,6 +3,13 @@
  */
 package experiment8_pitest;
 
+/**
+ * @Title: APP
+ * @Package: experiment8_pitest
+ * @Descripate: 实验八，Gradle部署工具集成pitest插件
+ * @author: yizhaosan
+ */
+
 public class App {
     public String getGreeting() {
         return "Hello world.";
