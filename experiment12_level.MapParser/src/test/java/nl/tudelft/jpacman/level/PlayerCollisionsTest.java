@@ -46,7 +46,7 @@ public class PlayerCollisionsTest {
 
     @Test
     @DisplayName("Player移动到Player的位置")
-    void  playerCollisidePlayer() {
+    void playerCollisidePlayer() {
         Player player1 = mock(Player.class);
         Player player2 = mock(Player.class);
 
