@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../../src/main"/>
+	<lib name="Gradle: com.github.spotbugs:spotbugs-annotations:3.1.12" scope="PROVIDED"/>
+	<levels>
+		<level name="Gradle: com.google.guava:guava:27.1-jre" value="project"/>
+		<level name="Gradle: com.google.guava:failureaccess:1.0.1" value="project"/>
+		<level name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" value="project"/>
+		<level name="Gradle: com.google.code.findbugs:jsr305:3.0.2" value="project"/>
+		<level name="Gradle: org.checkerframework:checker-qual:2.5.2" value="project"/>
+		<level name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0" value="project"/>
+		<level name="Gradle: com.github.spotbugs:spotbugs-annotations:3.1.12" value="project"/>
+		<level name="Gradle: com.google.j2objc:j2objc-annotations:1.1" value="project"/>
+		<level name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" value="project"/>
+	</levels>
+</component>
