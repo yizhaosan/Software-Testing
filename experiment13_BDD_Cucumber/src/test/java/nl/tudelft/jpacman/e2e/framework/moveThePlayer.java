@@ -1,3 +1,4 @@
+/*
 package nl.tudelft.jpacman.e2e.framework;
 
 import io.cucumber.java.After;
@@ -182,3 +183,4 @@ public class moveThePlayer {
     }
 
 }
+*/
