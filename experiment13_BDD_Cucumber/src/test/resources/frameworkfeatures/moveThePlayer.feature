@@ -11,7 +11,7 @@ Feature: Move the Player
     When  I press an arrow key towards that square
     Then  my Pacman can move to that square
     And  I earn the points for the pellet
-    And nd  the pellet disappears from that square
+    And  the pellet disappears from that square
 
   @S2.2:
   Scenario: The player moves on empty square
