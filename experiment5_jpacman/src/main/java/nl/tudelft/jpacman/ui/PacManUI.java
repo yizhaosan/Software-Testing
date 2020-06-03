@@ -69,7 +69,7 @@ public class PacManUI extends JFrame {
                     final Map<Integer, Action> keyMappings,
                     ScoreFormatter scoreFormatter) {
 //        super("JPacman");
-    	super("JPacman 2020");
+    	super("JPacman  2020");
         assert game != null;
         assert buttons != null;
         assert keyMappings != null;
