@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<WebScript v='30205'>
+	<Variables>
+	</Variables>
+	<nextScriptId>242</nextScriptId>
+	<Object>null</Object>
+	<dataSources>
+		<count>1</count>
+		<source>
+			<id>9</id>
+			<ValueListDataSource v='1'>
+				<ver>14</ver>
+				<id>9</id>
+				<VariableValueSet v='2'>
+					<name/>
+					<saveValues>true</saveValues>
+					<count>11</count>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+					<value>B235FCFD1F4324707783CB686AC767FB</value>
+				</VariableValueSet>
+			</ValueListDataSource>
+		</source>
+	</dataSources>
+	<Script v='3'>
+		<ver>14</ver>
+		<id>1</id>
+		<Summary v='3'>
+			<played>14</played>
+			<succeeded>13</succeeded>
+			<failed>1</failed>
+			<warnings>2</warnings>
+			<maxResponseTime>8276</maxResponseTime>
+			<averageResponseTime>690</averageResponseTime>
+		</Summary>
+		<childCount>1</childCount>
+		<ChildItems>
+			<SuiteItem v='1'>
+				<ver>14</ver>
+				<id>4</id>
+				<Summary v='3'>
+					<played>14</played>
+					<succeeded>13</succeeded>
+					<failed>1</failed>
+					<warnings>2</warnings>
+					<maxResponseTime>8276</maxResponseTime>
+					<averageResponseTime>690</averageResponseTime>
+				</Summary>
+				<childCount>1</childCount>
+				<ChildItems>
+					<TestItem v='3'>
+						<ver>14</ver>
+						<id>3</id>
+						<Summary v='3'>
+							<played>14</played>
+							<succeeded>13</succeeded>
+							<failed>1</failed>
+							<warnings>2</warnings>
+							<maxResponseTime>8276</maxResponseTime>
+							<averageResponseTime>690</averageResponseTime>
+						</Summary>
+						<childCount>3</childCount>
+						<ChildItems>
+							<Step v='4'>
+								<ver>14</ver>
+								<id>2</id>
+								<Summary v='3'>
+									<played>2</played>
+									<succeeded>2</succeeded>
+									<maxResponseTime>129</maxResponseTime>
+									<averageResponseTime>106</averageResponseTime>
+								</Summary>
+								<childCount>2</childCount>
+								<ChildItems>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>5</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>129</maxResponseTime>
+											<averageResponseTime>129</averageResponseTime>
+										</Summary>
+										<childCount>1</childCount>
+										<ChildItems>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>6</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/ping_session.jsp</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: file:///C:/soft/Badboy/html/start.html</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/user/login.page</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: file:///C:/soft/Badboy/html/start.html
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>gb2312</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>20</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>82</maxResponseTime>
+											<averageResponseTime>82</averageResponseTime>
+										</Summary>
+										<childCount>8</childCount>
+										<ChildItems>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>21</id>
+												<name>module</name>
+												<value>user</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>22</id>
+												<name>action</name>
+												<value>validateLogin</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>23</id>
+												<name>username</name>
+												<value>Admin</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>24</id>
+												<name>password</name>
+												<value>admin</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>25</id>
+												<name>redirect</name>
+												<value/>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>26</id>
+												<name>login</name>
+												<value>%B5%C7%C8%EB</value>
+												<sendEquals>true</sendEquals>
+												<method>2</method>
+											</Parameter>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>27</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/ping_session.jsp</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/forums/list.page</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>28</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/forums/list.page</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/user/login.page
+Content-Type: application/x-www-form-urlencoded</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+												<executionMode>2</executionMode>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/jforum.page;jsessionid=${jsessionid}</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/user/login.page
+Content-Type: application/x-www-form-urlencoded
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+								</ChildItems>
+								<timeoutEnabled>false</timeoutEnabled>
+								<Object>null</Object>
+								<targetWindow/>
+								<itemName/>
+								<documentation/>
+								<waitForPageToLoad>false</waitForPageToLoad>
+								<sourceLocation/>
+								<recordResponses>true</recordResponses>
+								<quiescenceTimeMs>500</quiescenceTimeMs>
+								<disabled>false</disabled>
+								<ignoreErrors>false</ignoreErrors>
+								<errorFilter/>
+								<Object>null</Object>
+								<name>Step 1</name>
+								<repetitions>1</repetitions>
+								<repeatType>1</repeatType>
+								<repeatVariable/>
+								<incrementAutomatically>true</incrementAutomatically>
+								<incrementAll>true</incrementAll>
+								<expanded>1</expanded>
+							</Step>
+							<Step v='4'>
+								<ver>14</ver>
+								<id>31</id>
+								<Summary v='3'>
+									<played>1</played>
+									<succeeded>1</succeeded>
+									<maxResponseTime>150</maxResponseTime>
+									<averageResponseTime>150</averageResponseTime>
+								</Summary>
+								<childCount>1</childCount>
+								<ChildItems>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>34</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>150</maxResponseTime>
+											<averageResponseTime>150</averageResponseTime>
+										</Summary>
+										<childCount>1</childCount>
+										<ChildItems>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>35</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/ping_session.jsp</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/forums/show/1.page</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/forums/show/1.page</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/forums/list.page
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+								</ChildItems>
+								<timeoutEnabled>false</timeoutEnabled>
+								<Object>null</Object>
+								<targetWindow/>
+								<itemName/>
+								<documentation/>
+								<waitForPageToLoad>false</waitForPageToLoad>
+								<sourceLocation/>
+								<recordResponses>true</recordResponses>
+								<quiescenceTimeMs>500</quiescenceTimeMs>
+								<disabled>false</disabled>
+								<ignoreErrors>false</ignoreErrors>
+								<errorFilter/>
+								<Object>null</Object>
+								<name>Step 2</name>
+								<repetitions>1</repetitions>
+								<repeatType>1</repeatType>
+								<repeatVariable/>
+								<incrementAutomatically>true</incrementAutomatically>
+								<incrementAll>true</incrementAll>
+								<expanded>1</expanded>
+							</Step>
+							<Step v='4'>
+								<ver>14</ver>
+								<id>38</id>
+								<Summary v='3'>
+									<played>11</played>
+									<succeeded>10</succeeded>
+									<failed>1</failed>
+									<warnings>2</warnings>
+									<maxResponseTime>8276</maxResponseTime>
+									<averageResponseTime>845</averageResponseTime>
+								</Summary>
+								<childCount>11</childCount>
+								<ChildItems>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>41</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>200</maxResponseTime>
+											<averageResponseTime>200</averageResponseTime>
+										</Summary>
+										<childCount>4</childCount>
+										<ChildItems>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>42</id>
+												<name>module</name>
+												<value>posts</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>43</id>
+												<name>action</name>
+												<value>insert</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Parameter v='4'>
+												<ver>14</ver>
+												<id>44</id>
+												<name>forum_id</name>
+												<value>1</value>
+												<sendEquals>true</sendEquals>
+												<method>1</method>
+											</Parameter>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>45</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/ping_session.jsp</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/jforum.page?module=posts&amp;action=insert&amp;forum_id=1</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/jforum.page</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/forums/show/1.page
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>183</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<warnings>2</warnings>
+											<maxResponseTime>162</maxResponseTime>
+											<averageResponseTime>162</averageResponseTime>
+										</Summary>
+										<childCount>25</childCount>
+										<ChildItems>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>184</id>
+												<contentLength>10</contentLength>
+												<content>aW5zZXJ0U2F2ZQ==</content>												<headers>Content-Disposition: form-data; name=&quot;action&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>185</id>
+												<contentLength>5</contentLength>
+												<content>cG9zdHM=</content>												<headers>Content-Disposition: form-data; name=&quot;module&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>186</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;preview&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>187</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;forum_id&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>188</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;start&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>189</id>
+												<contentLength>11</contentLength>
+												<content>QmFkQm95VGVzdDI=</content>												<headers>Content-Disposition: form-data; name=&quot;subject&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>190</id>
+												<contentLength>7</contentLength>
+												<content>IzQ0NDQ0NA==</content>												<headers>Content-Disposition: form-data; name=&quot;addbbcode24&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>191</id>
+												<contentLength>2</contentLength>
+												<content>MTI=</content>												<headers>Content-Disposition: form-data; name=&quot;addbbcode26&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>192</id>
+												<contentLength>33</contentLength>
+												<content>5LiL5ruR57q/OiBbdV3mlofmnKxbL3VdICAoYWx0K3Up</content>												<headers>Content-Disposition: form-data; name=&quot;helpbox&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>193</id>
+												<contentLength>18</contentLength>
+												<content>IDopICA6LSkgIDopICA6LSkg</content>												<headers>Content-Disposition: form-data; name=&quot;message&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>194</id>
+												<contentLength>2</contentLength>
+												<content>b24=</content>												<headers>Content-Disposition: form-data; name=&quot;disable_html&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>195</id>
+												<contentLength>2</contentLength>
+												<content>b24=</content>												<headers>Content-Disposition: form-data; name=&quot;attach_sig&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>196</id>
+												<contentLength>2</contentLength>
+												<content>b24=</content>												<headers>Content-Disposition: form-data; name=&quot;notify&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>197</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;topic_type&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>198</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;poll_label&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>199</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;poll_option&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>200</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;poll_option_count&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>201</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;poll_option_1&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>202</id>
+												<contentLength>1</contentLength>
+												<content>MA==</content>												<headers>Content-Disposition: form-data; name=&quot;poll_length&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>203</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;edit_attach_ids&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>204</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;delete_attach&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>205</id>
+												<contentLength>1</contentLength>
+												<content>MQ==</content>												<headers>Content-Disposition: form-data; name=&quot;total_files&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>206</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;file_0&quot;; filename=&quot;&quot;
+Content-Type: application/octet-stream</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<FormPartItem v='5'>
+												<ver>14</ver>
+												<id>207</id>
+												<content></content>												<headers>Content-Disposition: form-data; name=&quot;comment_0&quot;</headers>
+												<substituteVariables>false</substituteVariables>
+												<sourceType>script</sourceType>
+												<sourceFile/>
+											</FormPartItem>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>208</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>localhost:8080</host>
+												<path>/JForum/ping_session.jsp</path>
+												<protocol>http</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/posts/list/0/4.page#4</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/jforum.page</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/jforum.page?module=posts&amp;action=insert&amp;forum_id=1
+Content-Type: multipart/form-data; boundary=---------------------------7e4fd38f09dc
+</headers>
+										<multipartBoundary>---------------------------7e4fd38f09dc</multipartBoundary>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>213</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>82</maxResponseTime>
+											<averageResponseTime>82</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>217</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>74</maxResponseTime>
+											<averageResponseTime>74</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>220</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>84</maxResponseTime>
+											<averageResponseTime>84</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>223</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>78</maxResponseTime>
+											<averageResponseTime>78</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>226</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>76</maxResponseTime>
+											<averageResponseTime>76</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>229</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>88</maxResponseTime>
+											<averageResponseTime>88</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>232</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>88</maxResponseTime>
+											<averageResponseTime>88</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>235</id>
+										<Summary v='3'>
+											<played>1</played>
+											<succeeded>1</succeeded>
+											<maxResponseTime>92</maxResponseTime>
+											<averageResponseTime>92</averageResponseTime>
+										</Summary>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+									<Request v='10'>
+										<ver>14</ver>
+										<id>238</id>
+										<Summary v='3'>
+											<played>1</played>
+											<failed>1</failed>
+											<maxResponseTime>8276</maxResponseTime>
+											<averageResponseTime>8276</averageResponseTime>
+										</Summary>
+										<childCount>1</childCount>
+										<ChildItems>
+											<Request v='10'>
+												<ver>14</ver>
+												<id>239</id>
+												<Summary v='3'>
+													<maxResponseTime>0</maxResponseTime>
+													<averageResponseTime>0</averageResponseTime>
+												</Summary>
+												<timeoutEnabled>false</timeoutEnabled>
+												<Object>null</Object>
+												<targetWindow/>
+												<itemName/>
+												<documentation/>
+												<waitForPageToLoad>false</waitForPageToLoad>
+												<sourceLocation/>
+												<recordResponses>true</recordResponses>
+												<quiescenceTimeMs>500</quiescenceTimeMs>
+												<disabled>false</disabled>
+												<ignoreErrors>false</ignoreErrors>
+												<errorFilter/>
+												<Object>null</Object>
+												<host>ieframe.dll</host>
+												<path>/dnserrordiagoff.htm#http://localhost:8080/JForum/ping_session.jsp</path>
+												<protocol>res</protocol>
+												<resource/>
+												<targetFrame/>
+												<label/>
+												<headers>Referer: http://localhost:8080/JForum/ping_session.jsp</headers>
+												<multipartBoundary/>
+												<Object>null</Object>
+												<lenientSubrequestCount>false</lenientSubrequestCount>
+												<formCharset/>
+												<method>1</method>
+												<waitForSubRequests>false</waitForSubRequests>
+											</Request>
+										</ChildItems>
+										<timeoutEnabled>false</timeoutEnabled>
+										<Object>null</Object>
+										<targetWindow/>
+										<itemName/>
+										<documentation/>
+										<waitForPageToLoad>false</waitForPageToLoad>
+										<sourceLocation/>
+										<recordResponses>true</recordResponses>
+										<quiescenceTimeMs>500</quiescenceTimeMs>
+										<disabled>false</disabled>
+										<ignoreErrors>false</ignoreErrors>
+										<errorFilter/>
+										<Object>null</Object>
+										<host>localhost:8080</host>
+										<path>/JForum/ping_session.jsp</path>
+										<protocol>http</protocol>
+										<resource/>
+										<targetFrame/>
+										<isActive>1</isActive>
+										<label/>
+										<headers>Referer: http://localhost:8080/JForum/ping_session.jsp
+</headers>
+										<multipartBoundary/>
+										<Object>null</Object>
+										<lenientSubrequestCount>false</lenientSubrequestCount>
+										<formCharset>utf-8</formCharset>
+										<method>1</method>
+										<waitForSubRequests>false</waitForSubRequests>
+									</Request>
+								</ChildItems>
+								<timeoutEnabled>false</timeoutEnabled>
+								<Object>null</Object>
+								<targetWindow/>
+								<itemName/>
+								<documentation/>
+								<waitForPageToLoad>false</waitForPageToLoad>
+								<sourceLocation/>
+								<recordResponses>true</recordResponses>
+								<quiescenceTimeMs>500</quiescenceTimeMs>
+								<disabled>false</disabled>
+								<ignoreErrors>false</ignoreErrors>
+								<errorFilter/>
+								<Object>null</Object>
+								<name>Step 3</name>
+								<repetitions>1</repetitions>
+								<repeatType>1</repeatType>
+								<repeatVariable/>
+								<incrementAutomatically>true</incrementAutomatically>
+								<incrementAll>true</incrementAll>
+								<expanded>1</expanded>
+							</Step>
+						</ChildItems>
+						<timeoutEnabled>false</timeoutEnabled>
+						<Object>null</Object>
+						<targetWindow/>
+						<itemName/>
+						<documentation/>
+						<waitForPageToLoad>false</waitForPageToLoad>
+						<sourceLocation/>
+						<recordResponses>true</recordResponses>
+						<quiescenceTimeMs>500</quiescenceTimeMs>
+						<disabled>false</disabled>
+						<ignoreErrors>false</ignoreErrors>
+						<errorFilter/>
+						<Object>null</Object>
+						<title>Test 1</title>
+						<template/>
+						<expanded>1</expanded>
+					</TestItem>
+				</ChildItems>
+				<timeoutEnabled>false</timeoutEnabled>
+				<Object>null</Object>
+				<targetWindow/>
+				<itemName>Test Suite 1</itemName>
+				<documentation/>
+				<waitForPageToLoad>false</waitForPageToLoad>
+				<sourceLocation/>
+				<recordResponses>true</recordResponses>
+				<quiescenceTimeMs>500</quiescenceTimeMs>
+				<disabled>false</disabled>
+				<ignoreErrors>false</ignoreErrors>
+				<errorFilter/>
+				<Object>null</Object>
+				<expanded>1</expanded>
+			</SuiteItem>
+		</ChildItems>
+		<defaultHeaders>User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept: image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*
+Accept-Language: zh-CN
+</defaultHeaders>
+		<itemName>JForum_Login_NewPost_Script.bx</itemName>
+		<documentation/>
+	</Script>
+</WebScript>
