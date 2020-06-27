@@ -49,7 +49,7 @@ public class MapParserTest {
     @Order(3)
     @DisplayName("文件包含非法字符")
     void testFileNameHasIllegalCharacter() {
-        String file = "/board3.txt";
+        String file = "/MapParsetTestMap/board3.txt";
         assertThatThrownBy(() -> {
             mapParser.parseMap(file);
         }).isInstanceOf(PacmanConfigurationException.class).hasMessage("Invalid character at 0,0: A");
@@ -59,7 +59,7 @@ public class MapParserTest {
     @Order(4)
     @DisplayName("文件正常存在")
     void testFileExist() throws IOException {
-        String file = "/board4.txt";
+        String file = "/MapParsetTestMap/board4.txt";
         mapParser.parseMap(file);
 
         verify(boardFactory, times(5)).createGround();
