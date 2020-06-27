@@ -16,7 +16,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class startup2_5 {
+public class MtP2_5 {
 
     private Launcher launcher;
     private Player player;
@@ -34,7 +34,7 @@ public class startup2_5 {
         // Write code here that turns the phrase above into concrete actions
         // throw new io.cucumber.java.PendingException();
         launcher = new Launcher();
-        launcher.withMapFile("/simplemap5.txt");
+        launcher.withMapFile("/MtPMap/simplemap5.txt");
         launcher.launch();
 
         launcher.getGame().start();

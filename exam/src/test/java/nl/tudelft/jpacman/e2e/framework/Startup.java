@@ -9,7 +9,7 @@ import nl.tudelft.jpacman.game.Game;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class startup {
+public class Startup {
     private Launcher lancher;
 
     private Game getGame() {

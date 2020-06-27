@@ -1,9 +1,5 @@
 package nl.tudelft.jpacman.level;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-
 import nl.tudelft.jpacman.board.Board;
 import nl.tudelft.jpacman.board.Direction;
 import nl.tudelft.jpacman.board.Square;
@@ -13,6 +9,10 @@ import nl.tudelft.jpacman.npc.ghost.GhostFactory;
 import nl.tudelft.jpacman.points.PointCalculator;
 import nl.tudelft.jpacman.sprite.PacManSprites;
 import nl.tudelft.jpacman.sprite.Sprite;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 /**
  * Factory that creates levels and units.
